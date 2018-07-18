@@ -566,3 +566,38 @@ textarea#message{
 	font-size:30px;
 
 }
+
+#gallery{
+  margin-bottom: 30px;
+}
+#gallery .images-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+#gallery .images-box a {
+  flex: 1;
+}
+
+
+@media screen and (max-width: 768px){
+  #gallery .images-box a img{
+    min-width: 290px;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  #home{
+    margin-top: 152px;
+  }
+}
+@media screen and (max-width:400px){
+  #home{
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 400px){
+  .navbar-fixed-top{
+    position: static;
+  }
+}
